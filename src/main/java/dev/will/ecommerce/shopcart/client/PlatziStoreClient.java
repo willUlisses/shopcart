@@ -1,13 +1,14 @@
 package dev.will.ecommerce.shopcart.client;
 
 import dev.will.ecommerce.shopcart.client.respose.PlatziProductResponse;
+import dev.will.ecommerce.shopcart.exceptions.CustomErrorDecoder;
 import org.springframework.cloud.openfeign.FeignClient;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
 
 import java.util.List;
 
-@FeignClient(name = "PlatziStoreClient", url = "${shopcart.client.platzi}")
+@FeignClient(name = "PlatziStoreClient", url = "${shopcart.client.platzi}", configuration = { CustomErrorDecoder.class})
 public interface PlatziStoreClient {
 
     @GetMapping("/products")
