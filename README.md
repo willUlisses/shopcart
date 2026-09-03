@@ -27,7 +27,7 @@ O projeto foi desenvolvido com as seguintes tecnologias:
 
 ### MongoDB
 - Banco de dados NoSQL, utilizado para armazenar as informações do carrinho de compras de maneira flexível.
-- Saiba mais: [Documentação oficial do MongoDB](https://www.mongodb.com/docs/)### MongoDB
+- Saiba mais: [Documentação oficial do MongoDB](https://www.mongodb.com/docs/)
 
 ### OpenFeign
 - Uma biblioteca que simplifica a integração com APIs externas, tornando a comunicação mais intuitiva e reduzindo a verbosidade do código.
