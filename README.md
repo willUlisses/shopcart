@@ -13,8 +13,8 @@ Esse projeto é um serviço que gerencia um carrinho de compras simples, integra
 
 O projeto foi desenvolvido com as seguintes tecnologias:
 
-### Java 17
-- A versão mais moderna da linguagem Java, focada em desempenho e funcionalidades aprimoradas.
+### Java 21
+- Linguagem principal do projeto, focada em desempenho e funcionalidades aprimoradas.
 - Saiba mais: [Documentação oficial do Java](https://openjdk.org/projects/jdk/17/)
 
 ### Lombok
