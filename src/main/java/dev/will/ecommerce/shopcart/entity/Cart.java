@@ -1,6 +1,7 @@
 package dev.will.ecommerce.shopcart.entity;
 
 
+import com.fasterxml.jackson.annotation.JsonInclude;
 import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Getter;
@@ -30,6 +31,9 @@ public class Cart {
     private List<Product> products;
 
     private Status status;
+
+    @JsonInclude(JsonInclude.Include.NON_NULL)
+    private PaymentMethod paymentMethod;
 
 
     public void calculateTotalPrice() {
