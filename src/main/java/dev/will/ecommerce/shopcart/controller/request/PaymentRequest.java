@@ -1,4 +1,8 @@
 package dev.will.ecommerce.shopcart.controller.request;
 
-public record PaymentRequest() {
+import dev.will.ecommerce.shopcart.entity.PaymentMethod;
+
+public record PaymentRequest(
+        PaymentMethod paymentMethod
+) {
 }
